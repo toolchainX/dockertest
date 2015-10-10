@@ -5,3 +5,4 @@ add b1_updated.txt test.txt
 run echo "b1 branch after update"
 run echo "b1 branch after second update"
 run echo "b1 branch after third update"
+run echo "b1 branch after fourth update"
