@@ -1,4 +1,4 @@
-from registry.aliyuncs.com/linhuatest/llll
+from registry.aliyuncs.com/linhuatest/llll:test999
 run echo "nice to meet you! docker"
 run touch hello_world.txt
 add b1_updated.txt test.txt
