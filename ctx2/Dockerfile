@@ -1,9 +1,2 @@
-from registry.aliyuncs.com/linhuatest/llll:test999
-run echo "nice to meet you! docker"
-run touch hello_world.txt
-add b1_updated.txt test.txt
-run echo "b1 branch after update"
-run echo "b1 branch after second update"
-run echo "b1 branch after third update"
-run echo "b1 branch after fourth update"
-run echo "b1 branch after fifth update"
+from registry.aliyuncs.com/wordpress:latest
+copy 1.txt /www/html/1.txt
